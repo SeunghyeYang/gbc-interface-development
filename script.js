@@ -1,7 +1,8 @@
-var jobTitle  = 'student';
-var geolocation  = 'Ontario';
-var salary = '30K-60K';
-var company = 'Rogers';
+const today = new Date();
+const birthDate = new Date(1986, 11, 22); 
 
-document.body.innerHTML = `You will be a ${jobTitle} in ${geolocation}, making $${salary} for ${company}.`;
-console.log(future);
+let age = today.getFullYear()
+          - birthDate.getFullYear()
+          + 1;
+
+document.writeln(age);
