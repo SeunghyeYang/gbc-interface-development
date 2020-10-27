@@ -1,7 +1,6 @@
-var currentage = 35;
-var maximumage  = 90;
-var amountperday = 1;
-var totalamount = (maximumage - currentage) * 365 * amountperday;
+var radius = 10;
+var circumference  = radius * 3.14; 
+var area = radius * radius * 3.14;
 
-document.body.innerHTML = `You will need ${totalamount} to last you until the ripe old age of X.`;
+document.body.innerHTML = `The circumference is ${circumference}, and the area is ${area}.`;
 console.log(future);
