@@ -1,8 +1,7 @@
-const today = new Date();
-const birthDate = new Date(1986, 11, 22); 
+var currentage = 35;
+var maximumage  = 90;
+var amountperday = 1;
+var totalamount = (maximumage - currentage) * 365 * amountperday;
 
-let age = today.getFullYear()
-          - birthDate.getFullYear()
-          + 1;
-
-document.writeln(age);
+document.body.innerHTML = `You will need ${totalamount} to last you until the ripe old age of X.`;
+console.log(future);
